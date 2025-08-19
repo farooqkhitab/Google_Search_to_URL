@@ -1,0 +1,48 @@
+body {
+  background: #202124;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.google-icon {
+  margin-top: 30px;
+}
+
+.lnXdpd path {
+  fill: url(#grad1);
+}
+
+.search-div {
+  margin-top: 30px;
+  max-width: 80%;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+  background: #4d5156;
+}
+
+.search-div:focus-within {
+  background: #303134;
+}
+
+
+
+.search-icon,
+.mic-icon,
+.camera-icon {
+  height: 30px;
+  padding: 0 12px;
+  fill: #fffa;
+}
+
+.search-box {
+  height: 50px;
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fffa;
+}
+
